@@ -5,52 +5,87 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div>
+	<div class="formulario">
 		<form>
 			<fieldset>
 			
-				Nome: <input type="text" name="nome" class="nome">
-				Sexo: <input type="radio" name="sexo" value="feminio" >Feminio
-					  <input type="radio" name="sexo" value="masculino">Masculino<br>
-				Data de nascimento: <input type="date" name="data_de_nasc" class="data_de_nasc">
-				Rg: <input type="text" name="rg" class="rg">
-				Email: <input type="email" name="email" class="email"><br>
-				Celular: <input type="text" name="Celular" class="Celular">
-				Telefone: <input type="text" name="Telefone" class="Telefone">
-				Discipulador: <input type="text" name="discipulador" id="discipulador"><br>
-				Função: <input type="radio" name="funcao" value="lider">Lider
-						<input type="radio" name="funcao" value="eq.principal"> Eq.Principal
-						<input type="radio" name="funcao" value="eq.auxiliar" > Eq. Auxiliar<br>
-				Igreja: <input type="text" name="igreja" class="igreja">
-				Nucleo: <input type="text" name="nucleo" class="nucleo">
-				Pastor: <input type="text" name="pastor" class="input"><br>
-				Endereço: <input type="text" name="endereco" class="input" id="endereco"><br>
-				Cidade: <input type="text" name="cidade" class="input" id="cidade">
-				UF: <input type="text" name="uf" class="input">
-				CEP: <input type="text" name="cep" class="input"><br>
-				Onibus: <input type="radio" name="onibus" value="goinia" class="input"> Goiania 14:00h
-						<input type="radio" name="onibus" value="caravana" class="input">Caravana Local
-						<input type="radio" name="onibus" value="veiculoProprio" class="input"> Veiculo Proprio<br>
-				Casado: <input type="radio" name="casado" value="sim" class="input">Sim
-					<input type="radio" name="casado" value="nao" class="input">Não<br>
+				<span>NOME:</span> <input type="text" name="nome" class="input" id="nome">
 
-			<span class="estrutura">WORKSHOP DE ESTRUTURAS : (ESCOLHA APENAS UMA OPÇÃO) </span><br>
+				<span id="sexo">SEXO:</span> <input type="radio" name="sexo" value="feminio" class="input" id="feminino"><span id="sexo">F</span>
+
+				<input type="radio" name="sexo" value="feminio" class="input" id="feminino"><span id="sexo">M</span><br>	  
+
+				<span>DATA DE NASCIMENTO:</span> <input type="date" name="data_de_nasc" class="input" id="dataNasc">
+
+				<span>RG:</span> <input type="text" name="rg" class="input" id="rg">
+
+				<span>EMAIL:</span> <input type="email" name="email" class="input" id="email"><br>
+
+				<span>CELULAR:</span> <input type="text" name="Celular" class="input" id="celulsar">
+
+				<span>TELEFONE:</span> <input type="text" name="Telefone" class="input" id="telefone">
+
+				<span>DISCIPULADOR:</span> <input type="text" name="discipulador" class="input" id="discipulador"><br>
+
+				<span>FUNCAO:</span> <input type="radio" name="funcao" value="lider" id="funLider"><span>LIDER</span>
+
+						<input type="radio" name="funcao" value="eq.principal" id="FuncEqP"> <span>EQ.PRINCIPAL</span>
+
+						<input type="radio" name="funcao" value="eq.auxiliar" id="FuncEQA"> <span>EQ.AUXILIAR</span><br>
+
+				<span>IGREJA:</span> <input type="text" name="igreja" class="input" id="igreja">
+
+				<span>NUCLEO:</span> <input type="text" name="nucleo" class="input" id="nucleo">
+
+				<span>PASTOR:</span> <input type="text" name="pastor" class="input" id="pastor"><br>
+
+				<span>ENDERECO:</span> <input type="text" name="endereco" class="input" id="endereco"><br>
+
+				<span>CIDADE:</span> <input type="text" name="cidade" class="input" id="cidade">
+
+				<span>UF:</span> <input type="text" name="uf" class="input" id="uf">
+
+				<span>CEP:</span> <input type="text" name="cep" class="input" id="cep"><br>
+
+				<span>ONIBUS:</span> <input type="radio" name="onibus" value="goinia" class="input" id="onibus"> <span>GOIANIA 14:00h</span>
+				
+						
+				<input type="radio" name="onibus" value="caravana" class="input" id="onibus"><span>CARAVANA LOCAL</span>
+						
+				<input type="radio" name="onibus" value="veiculoProprio" class="input" id="onibus"><span>VEICULO PROPRIO</span><br>
+
+				<span>CASADO:</span> <input type="radio" name="casado" value="sim" class="input" id="casadoS"><span>SIM</span>
+
+					   <input type="radio" name="casado" value="nao" class="input" id="casadoN"><span>NÃO</span><br>
+
+				<span class="estrutura">WORKSHOP DE ESTRUTURAS : (ESCOLHA APENAS UMA OPÇÃO) </span><br>
 
 				<input type="radio" name="estrutura" value="louvor">LOUVOR
+
 				<input type="radio" name="estrutura" value="S.O.S">S.O.S (DANCA)
+
 				<input type="radio" name="estrutura" value="G.A.D">G.A.D(TEATRO)
+
 				<input type="radio" name="estrutura" value="discipulado">DISCIPULADO
+
 				<input type="radio" name="estrutura" value="G.O.E">G.O.E(RESGATE)
+
 				<input type="radio" name="estrutura" value="visita">VISITA<br>
+
 				<input type="radio" name="estrutura" value="intercessao">INTERCESSÃO
+
 				<input type="radio" name="estrutura" value="secretariado">SECRETARIADO
+
 				<input type="radio" name="estrutura" value="revolucionario">REVOLUCIONARIOS
+
 				<input type="radio" name="estrutura" value="I.M.S">I.M.S (INTERNET E MIDIAS SOCIAIS)<br>
 
-			<span>WORKSHOP DE EQUIPES: (ESCOLHA 1 OPÇÃO)</span><br>	
+			<span class="equipe">WORKSHOP DE EQUIPES: (ESCOLHA 1 OPÇÃO)</span><br>	
 
 				<input type="radio" name="equipe" value="lideranca">LIDERANCA
+
 				<input type="radio" name="equipe" value="eq.principal">EQ.PRINCIPAL
+
 				<input type="radio" name="equipe" value="eq.auxiliar">EQ.AUXILIAR<br>
 
 
