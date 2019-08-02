@@ -5,22 +5,23 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body>
+<body class=".menu">
 	<div class="formulario">
 		<form>
 			<fieldset>
+			<br>	
 			
 				<span>NOME:</span> <input type="text" name="nome" class="input" id="nome">
 
 				<span id="sexo">SEXO:</span> <input type="radio" name="sexo" value="feminio" class="input" id="feminino"><span id="sexo">F</span>
 
 				<input type="radio" name="sexo" value="feminio" class="input" id="feminino"><span id="sexo">M</span><br>	  
-<br>
+				<br>
 				<span>DATA DE NASCIMENTO:</span> <input type="date" name="data_de_nasc" class="input" id="dataNasc">
 
-				<span>RG:</span> <input type="text" name="rg" class="input" id="rg">
+				<span class="rg">RG:</span> <input type="text" name="rg" class="input" id="rg">
 
-				<span>EMAIL:</span> <input type="email" name="email" class="input" id="email"><br>
+				<span class="email">EMAIL:</span> <input type="email" name="email" class="input" id="email"><br>
 				<br>
 				<span>CELULAR:</span> <input type="text" name="Celular" class="input" id="celulsar">
 
@@ -30,10 +31,10 @@
 				<br>
 				<span>FUNCAO:</span> <input type="radio" name="funcao" value="lider" id="funLider"><span>LIDER</span>
 
-						<input type="radio" name="funcao" value="eq.principal" id="FuncEqP"> <span>EQ.PRINCIPAL</span>
+				<input type="radio" name="funcao" value="eq.principal" id="FuncEqP"> <span>EQ.PRINCIPAL</span>
 
-						<input type="radio" name="funcao" value="eq.auxiliar" id="FuncEQA"> <span>EQ.AUXILIAR</span><br>
-						<br>
+				<input type="radio" name="funcao" value="eq.auxiliar" id="FuncEQA"> <span>EQ.AUXILIAR</span><br>
+				<br>
 				<span>IGREJA:</span> <input type="text" name="igreja" class="input" id="igreja">
 
 				<span>NUCLEO:</span> <input type="text" name="nucleo" class="input" id="nucleo">
@@ -47,6 +48,7 @@
 				<span>UF:</span> <input type="text" name="uf" class="input" id="uf">
 
 				<span>CEP:</span> <input type="text" name="cep" class="input" id="cep"><br>
+				<br>
 				<br>
 				<span>ONIBUS:</span> <input type="radio" name="onibus" value="goinia" class="input" id="onibus"> <span class="radio">GOIANIA 14:00h</span>
 				
@@ -86,6 +88,7 @@
 			</div>
 			</div>
 				<br>
+				<br>
 			<span class="equipe">WORKSHOP DE EQUIPES: (ESCOLHA 1 OPÇÃO)</span><br>	
 			<br>
 				<div id="whorkEq">
@@ -96,9 +99,10 @@
 				<input type="radio" name="equipe" value="eq.auxiliar"><span>EQ.AUXILIAR</span><br>
 				</div>
 				<br>
+				<br>
 				
 
-
+				<input type="submit" name="enviar" value="REALIZAR INSCRICAO" class="botao">
 
 
 

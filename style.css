@@ -10,8 +10,9 @@
     background-color: MidnightBlue;
     position: relative;
     top: 50%;
-    left: 30%;
+    left: 25%;
     border-radius: 25px;
+    font-size: 20px;
 }
 
 .equipe{
@@ -19,8 +20,9 @@
     background-color: MidnightBlue;
     position: relative;
     top: 50%;
-    left: 35%;
+    left: 30%;
     border-radius: 22px;
+    font-size: 20px;
 }
 
 .input{
@@ -92,8 +94,9 @@ span{
 fieldset{
     position: relative;
     width: 1200px;
-    top: 50px;
-    left: 160px;
+    top: 250px;
+    left: 130px;
+    background-color: white;
 }
 
 .whorkshop{
@@ -114,8 +117,54 @@ body{
     background-image: 
 }
 
-#whorEq{
+#whorkEq{
     align-items: center;
     position: relative;
-    left: 2000px;
+    left: 400px;
+}
+
+.rg, #rg,.email{
+    position: relative;
+    left: 30px;
+}
+
+.email{
+    left: 50px;
+}
+
+
+#email{
+    position: relative;
+    left: 50px;
+    width: 500px;
+}
+
+
+body{
+    background-color: blue;
+    background-image: url(enfe.jfif);
+    position: relative;
+    width: 60px;
+}
+
+
+
+
+@media only screen and (max-device-width: 900px) {
+.menu { width:100%; } 
+}
+
+
+.botao{
+    position: relative;
+    width: 300px;
+    left: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: LightCoral;
+    color: white;
+    border-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1px;
 }
