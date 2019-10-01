@@ -1,108 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Enfe 2019</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="teste.css">
 
 </head>
+
 <body class=".menu">
 	<div class="formulario">
 		<form>
 			<fieldset>
-			<br>	
-			
-				<span>NOME:</span> <input type="text" name="nome" class="input" id="nome">
-
-				<span id="sexo">SEXO:</span> <input type="radio" name="sexo" value="feminio" class="input" id="feminino"><span id="sexo">F</span>
-
-				<input type="radio" name="sexo" value="feminio" class="input" id="feminino"><span id="sexo">M</span><br>	  
 				<br>
-				<span>DATA DE NASCIMENTO:</span> <input type="date" name="data_de_nasc" class="input" id="dataNasc">
 
-				<span class="rg">RG:</span> <input type="text" name="rg" class="input" id="rg">
-
-				<span class="email">EMAIL:</span> <input type="email" name="email" class="input" id="email"><br>
+				<span id="nomeS">NOME:</span> <input type="text" name="nome" class="input" id="nome"><br>
 				<br>
-				<span>CELULAR:</span> <input type="text" name="Celular" class="input" id="celulsar">
+				<span id="dataNascS">DATA DE NASCIMENTO:</span> <input type="text" name="data_de_nasc" class="input"
+					id="dataNasc">
 
-				<span>TELEFONE:</span> <input type="text" name="Telefone" class="input" id="telefone">
+				<span class="rg">RG:</span> <input type="text" name="rg" class="input" id="rg"><br>
 
-				<span>DISCIPULADOR:</span> <input type="text" name="discipulador" class="input" id="discipulador"><br>
-				<br>
-				<span>FUNCAO:</span> <input type="radio" name="funcao" value="lider" id="funLider"><span>LIDER</span>
+				<span id="emailS">EMAIL:</span> <input type="email" name="email" class="input" id="email">
 
-				<input type="radio" name="funcao" value="eq.principal" id="FuncEqP"> <span>EQ.PRINCIPAL</span>
+				<span id="telefoneS">TELEFONE:</span> <input type="text" name="Telefone" class="input" id="telefone">
 
-				<input type="radio" name="funcao" value="eq.auxiliar" id="FuncEQA"> <span>EQ.AUXILIAR</span><br>
-				<br>
-				<span>IGREJA:</span> <input type="text" name="igreja" class="input" id="igreja">
+				<span id="discipuladorS">DISCIPULADOR:</span> <input type="text" name="discipulador" class="input"
+					id="discipulador"><br>
+				<!--<div class="funcao">
+						<span>FUNCAO:</span> <input type="radio" name="funcao" value="lider" id="funLider"><span>LIDER</span>
 
-				<span>NUCLEO:</span> <input type="text" name="nucleo" class="input" id="nucleo">
+						<input type="radio" name="funcao" value="eq.principal" id="FuncEqP"> <span>EQ.PRINCIPAL</span>
 
-				<span>PASTOR:</span> <input type="text" name="pastor" class="input" id="pastor"><br>
-				<br>
-				<span>ENDERECO:</span> <input type="text" name="endereco" class="input" id="endereco"><br>
-				<br>
-				<span>CIDADE:</span> <input type="text" name="cidade" class="input" id="cidade">
+						<input type="radio" name="funcao" value="eq.auxiliar" id="FuncEQA"> <span>EQ.AUXILIAR</span><br>
+						<br>
+					</div>-->
+				<div class="cima1">
+					<span id="igrejaS">IGREJA:</span> <input type="text" name="igreja" class="input" id="igreja">
 
-				<span>UF:</span> <input type="text" name="uf" class="input" id="uf">
+					<span id="nucleoS">NUCLEO:</span> <input type="text" name="nucleo" class="input" id="nucleo"><br>
 
-				<span>CEP:</span> <input type="text" name="cep" class="input" id="cep"><br>
-				<br>
-				<br>
-				<span>ONIBUS:</span> <input type="radio" name="onibus" value="goinia" class="input" id="onibus"> <span class="radio">GOIANIA 14:00h</span>
-				
-						
-				<input type="radio" name="onibus" value="caravana" class="input" id="onibus"><span class="radio">CARAVANA LOCAL</span>
-						
-				<input type="radio" name="onibus" value="veiculoProprio" class="input" id="onibus"><span class="radio">VEICULO PROPRIO</span><br>
-				<br>
-				<span>CASADO:</span> <input type="radio" name="casado" value="sim" class="input" id="casadoS"><span class="radio">SIM</span>
+					<span id="pastorS">PASTOR:</span> <input type="text" name="pastor" class="input" id="pastor"><br>
+					<span id="enderecoS">ENDERECO:</span> <input type="text" name="endereco" class="input"
+						id="endereco">
+					<br>
+					<span>CIDADE:</span> <input type="text" name="cidade" class="input" id="cidade">
 
-					   <input type="radio" name="casado" value="nao" class="input" id="casadoN"><span>NÃO</span><br>
-					   <br>
-				 	   
+					<span>UF:</span> <input type="text" name="uf" class="input" id="uf">
+
+					<span>CEP:</span> <input type="text" name="cep" class="input" id="cep"><br>
+					<br>
+					<br>
+				</div>
+				<div class="meio1">
+					<span class="radio">ONIBUS:</span> <input type="radio" name="onibus" value="goinia" class="input"
+						id="onibus">
+					<span class="radio">GOIANIA 14:00h</span>
+
+
+					<input type="radio" name="caravana" value="caravana" class="input" id="onibus"><span
+						class="radio">CARAVANA LOCAL</span>
+
+					<input type="radio" name="veiculo" value="veiculoProprio" class="input" id="onibus"><span
+						class="radio">VEICULO PROPRIO</span><br>
+					<br>
+					<span class="radio">CASADO:</span> <input type="radio" name="casadoS" value="sim" class="input"
+						id="casadoS"><span class="radio">SIM</span>
+
+					<input type="radio" name="casadoN" value="nao" class="input" id="casadoN"><span
+						class="radio">NÃO</span><br>
+					<br>
+				</div>
 				<span class="estrutura">WORKSHOP DE ESTRUTURAS : (ESCOLHA APENAS UMA OPÇÃO) </span><br>
 				<br>
 				<div class="whorkshop">
-				<input type="radio" name="estrutura" value="louvor"><span>LOUVOR</span>
+					<input type="radio" name="louvor" value="louvor"><span class="radioWork">LOUVOR</span>
 
-				<input type="radio" name="estrutura" value="S.O.S"><span>S.O.S(DANCA)</span>
+					<input type="radio" name="sos" value="S.O.S"><span class="radioWork">S.O.S(DANCA)</span>
 
-				<input type="radio" name="estrutura" value="G.A.D"><span>G.A.D(TEATRO)</span>
+					<input type="radio" name="gad" value="G.A.D"><span class="radioWork">G.A.D(TEATRO)</span>
 
-				<input type="radio" name="estrutura" value="discipulado"><span>DISCIPULADO</span>
+					<input type="radio" name="discipuladoEst" value="discipulado"><span
+						class="radioWork">DISCIPULADO</span>
 
-				<input type="radio" name="estrutura" value="G.O.E"><span>G.O.E(RESGATE)</span>
+					<input type="radio" name="goe" value="G.O.E"><span class="radioWork">G.O.E(RESGATE)</span><br>
 
-				<input type="radio" name="estrutura" value="visita"><span>VISITA</span>
-				
-				<input type="radio" name="estrutura" value="intercessao"><span>INTERCESSAO</span><br>
+					<input type="radio" name="visita" value="visita"><span class="radioWork">VISITA</span>
+
+					<input type="radio" name="intercessao" value="intercessao"><span
+						class="radioWork">INTERCESSAO</span>
 					<br>
-					<div id="whork">
-				<input type="radio" name="estrutura" value="secretariado" id="secretariado"><span>SECRETARIADO</span>
+					<input type="radio" name="secretariado" value="secretariado" id="secretariado"><span
+						class="radioWork">SECRETARIADO</span>
 
-				<input type="radio" name="estrutura" value="revolucionario" id="revolucionario"><span>REVOLUCIONARIO</span>
+					<input type="radio" name="revolucionario" value="revolucionario" id="revolucionario"><span
+						class="radioWork">REVOLUCIONARIO</span>
 
-				<input type="radio" name="estrutura" value="I.M.S" id="I.M.S"><span> I.M.S(INTERNET E MIDIAS SOCIAIS</span><br>
-			</div>
-			</div>
-				<br>
-				<br>
-			<span class="equipe">WORKSHOP DE EQUIPES: (ESCOLHA 1 OPÇÃO)</span><br>	
-			<br>
-				<div id="whorkEq">
-				<input type="radio" name="equipe" value="lideranca"><span>LIDERANCA</span> 
+					<input type="radio" name="ims" value="I.M.S" id="I.M.S"><span class="radioWork"> I.M.S(INTERNET E
+						MIDIAS SOCIAIS</span><br>
+				</div>
+				<span class="equipe">WORKSHOP DE EQUIPES: (ESCOLHA 1 OPÇÃO)</span><br><br>
 
-				<input type="radio" name="equipe" value="eq.principal"><span>EQ.PRINCIPAL</span>
+				<div id="workEquip">
+					<input type="radio" name="lideranca" value="lideranca" class="req"><span id="eq">LIDERANCA</span>
 
-				<input type="radio" name="equipe" value="eq.auxiliar"><span>EQ.AUXILIAR</span><br>
+					<input type="radio" name="eqprincipal" value="eq.principal" class="req"><span
+						id="eq">EQ.PRINCIPAL</span>
+
+					<input type="radio" name="eqauxiliar" value="eq.auxiliar" class="req"><span
+						id="eq">EQ.AUXILIAR</span><br>
 				</div>
 				<br>
 				<br>
-				
 
-				<input type="submit" name="enviar" value="REALIZAR INSCRICAO" class="botao">
+
+				<input type="submit" name="enviar" value="INSCREVER" class="botao" onsubmit="index.php">
 
 
 
@@ -114,7 +125,14 @@
 		</form>
 
 	</div>
+	<div class="preletores">
+		<img src="./Preletores.png" alt="" width="500px">
+		<div class="logo">
+			<img src="./enfeLogo.png" alt="" width="300px">
+		</div>
+	</div>
 
 
 </body>
+
 </html>

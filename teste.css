@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    overflow-x:hidden; 
+    background-image: url(./fundoEnfe.png);
+    background-repeat: repeat;
+}
+fieldset{
+    position: relative;
+    width: 650px;
+    height: 780px;
+    left: 580px;
+    transform: rotate(3px);
+    padding: -3px 0px 0px 0px;    
+    background-color: white;
+    -webkit-transform: skew(0.5deg); /* Chrome, Opera */
+    -ms-transform: skew(0.5deg); /* IE */
+        transform: skew(0.5deg); /* Padrão */
+
+}
+
+#nome{
+    position: relative;
+    font-size: 13px;
+    left: 50px;
+    width: 500px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nomeS{
+    position: relative;
+    left: 50px;
+    border-color: white;
+}
+
+#dataNasc{
+    width: 150px;
+    position: relative;
+    left: 50px;
+    padding: 0px 3px 0px 0px;
+}
+
+
+#dataNascS{
+    position: relative;
+    left: 50px;
+}
+
+#rg{
+    position: relative;
+    left: 50px;
+    width: 100px;
+
+}
+
+.rg{
+    position: relative;
+    left: 50px;   
+}
+
+#emailS{
+    position: relative;
+    left: 50px; 
+}
+
+#email{
+    width: 200px;
+    position: relative;
+    left: 50px;
+}
+
+#telefoneS{
+    position: relative;
+    left: 50px; 
+}
+
+#telefone{
+    position: relative;
+    left: 50px;
+}
+
+#discipuladorS{
+    position: relative;
+    left: 50px;
+}
+
+#discipulador{
+    width: 413px;
+    position: relative;
+    left: 50px;
+}
+
+
+.funcao{
+    position: relative;
+    left: 50px;
+}
+
+
+.cima1{
+    position: relative;
+    left: 50px;
+}
+
+#nucleo{
+    width: 219px;
+}
+
+#pastor{
+    width: 487px;
+}
+
+
+#endereco{
+    width: 453px;
+}
+
+#uf{
+    width: 50px;
+}
+
+#cep{
+    width: 164px;
+}
+
+
+.meio1{
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 0;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+    padding: 40px 0px 0px 0px;
+    right: 30px;
+    -webkit-transform: skew(2deg); /* Chrome, Opera */
+    -ms-transform: skew(2deg); /* IE */
+        transform: skew(2deg); /* Padrão */
+    z-index: 200;
+}
+
+.radio{
+    font-size: 16px;
+    position: relative;
+    border-color: white;
+}
+
+input [type=radio]{
+    background-color: white;
+    border-color: white;
+    border-radius: 22px;
+}
+.estrutura{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.whorkshop{
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 0;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    padding: 40px 0px 0px 0px;
+    right: 30px;
+    -webkit-transform: skew(2deg); /* Chrome, Opera */
+    -ms-transform: skew(2deg); /* IE */
+        transform: skew(2deg); /* Padrão */
+}
+
+.radioWork{
+    font-size: 13px;
+    position: relative;
+    border-color: white;
+}
+
+.equipe{
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 110px;
+}
+
+#workEquip{
+    background-color: black;
+    color: white;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    -webkit-transform: skew(2deg); /* Chrome, Opera */
+    -ms-transform: skew(2deg); /* IE */
+        transform: skew(2deg); /* Padrão */
+    
+}
+
+#eq{
+    font-size: 16px;
+    position: relative;
+    align-items: center;
+    top: 25px; 
+}
+
+.req{
+    position: relative;
+    top: 25px;  
+}
+
+.preletores{
+    position: relative;
+    margin: -800px 0px 0px 0px;
+    width: 10%;
+
+}
+
+.logo{
+    position: relative;
+    left: 100px;
+    margin: -100px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.botao{
+    background-color: black;
+    color:  red;
+    font-size: 16px;
+    border: solid 3px white;
+   width: 150px;
+   height: 50px;
+   position: relative;
+   left: 290px;
+   z-index: 3;
+   margin: -70px 0px 0px 0px;
+   -webkit-transform: skew(2deg); /* Chrome, Opera */
+    -ms-transform: skew(2deg); /* IE */
+        transform: skew(2deg); /* Padrão */
+
+}
+
